@@ -55,3 +55,17 @@ Android Studio setup:
 5. Build > Clean Project, then Build > Rebuild Project.
 
 Important: Do not select JDK 25 or JDK 26 for Gradle 9.0.0. Use JDK 21.
+
+## Screenshots
+
+### Home Screen
+![Home](screenshots/home_light.png)
+
+### Dark Mode
+![Dark](screenshots/home_dark.png)
+
+### Add Note
+![Add Note](screenshots/add_note.png)
+
+### Search Notes
+![Search](screenshots/search_notes.png)
