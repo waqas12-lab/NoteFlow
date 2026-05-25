@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/app_icon.png" width="120" alt="NoteFlow App Icon"/>
+</p>
+
+<h1 align="center">NoteFlow 📝</h1>
+
+<p align="center">
+Modern offline-first Android Notes App built with Kotlin and Jetpack Compose.
+</p>
+
 # NoteFlow - Android Notes App
 
 Professional clean notes app built with Kotlin, Jetpack Compose, Room, Navigation Compose, MVVM, Repository pattern, StateFlow, Coroutines, and Material 3.
