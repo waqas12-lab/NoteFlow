@@ -8,12 +8,12 @@
 Modern offline-first Android Notes App built with Kotlin and Jetpack Compose.
 </p>
 
-# NoteFlow - Android Notes App
+---
 
-Professional clean notes app built with Kotlin, Jetpack Compose, Room, Navigation Compose, MVVM, Repository pattern, StateFlow, Coroutines, and Material 3.
 
 ## Features
-- Add, edit, delete notes
+
+- Add, edit, and delete notes
 - Title and description fields
 - Search notes
 - Pin important notes
@@ -24,14 +24,33 @@ Professional clean notes app built with Kotlin, Jetpack Compose, Room, Navigatio
 - Light and dark mode support
 - Modern Material 3 UI
 
+---
+
+## Improvements
+
+- Clean MVVM architecture
+- Repository pattern implementation
+- StateFlow state management
+- Responsive modern UI
+- Offline-first database support
+- Smooth navigation between screens
+- Optimized Compose UI structure
+- Beginner-friendly clean code
+
+---
+
 ## Run Instructions
+
 1. Open Android Studio.
 2. Choose **File > Open** and select the `NoteFlow` folder.
 3. Let Gradle sync finish.
 4. Select an emulator or real Android device.
 5. Click **Run**.
 
+---
+
 ## Package Structure
+
 - `model` - Room entity
 - `data/local` - DAO and database
 - `data/repository` - repository layer
@@ -42,29 +61,68 @@ Professional clean notes app built with Kotlin, Jetpack Compose, Room, Navigatio
 - `ui/navigation` - Navigation Compose routes
 - `ui/theme` - Material 3 colors and theme
 
+---
 
 ## Important: Fix Java/JDK Error
+
 If Android Studio says it cannot find Java 17, open:
+
 Preferences/Settings → Build, Execution, Deployment → Build Tools → Gradle
-and set **Gradle JDK** to **Embedded JDK / Android Studio JBR**.
-Then Sync, Clean, and Rebuild.
+
+Set Gradle JDK to JDK 21.
+
+Then:
+- Sync Project
+- Clean Project
+- Rebuild Project
+
+---
 
 ## App Icon
-The NoteFlow launcher icon is already added in all mipmap folders and connected in AndroidManifest.xml.
 
+The NoteFlow launcher icon is already added in:
+- All mipmap folders
+- Adaptive icon format
+- AndroidManifest.xml
+
+---
 
 ## JDK 21 Fixed Version
 
-This ZIP is configured for Java/JDK 21.
+This project is configured for Java/JDK 21.
 
-Android Studio setup:
+### Android Studio Setup
+
 1. Install JDK 21 if not already installed.
-2. Open Android Studio > Settings/Preferences > Build, Execution, Deployment > Build Tools > Gradle.
-3. Set Gradle JDK to JDK 21.
-4. Click File > Sync Project with Gradle Files.
-5. Build > Clean Project, then Build > Rebuild Project.
+2. Open Android Studio.
+3. Go to Settings/Preferences → Build, Execution, Deployment → Build Tools → Gradle
+4. Set Gradle JDK → JDK 21
+5. Click File → Sync Project with Gradle Files
+6. Build project again.
 
-Important: Do not select JDK 25 or JDK 26 for Gradle 9.0.0. Use JDK 21.
+### Important
+
+Do not use:
+- JDK 25
+- JDK 26
+
+Recommended:
+- JDK 21
+
+---
+
+## Future Improvements
+
+- Cloud synchronization
+- Biometric authentication
+- Categories and labels
+- Reminder notifications
+- Backup & restore
+- Markdown support
+- Rich text editor
+- Multi-device sync
+
+---
 
 ## Screenshots
 
@@ -79,3 +137,35 @@ Important: Do not select JDK 25 or JDK 26 for Gradle 9.0.0. Use JDK 21.
 
 ### Search Notes
 ![Search](screenshots/search_notes.png)
+
+---
+
+## Contributing
+
+Contributions are welcome and appreciated.
+
+If you would like to improve NoteFlow:
+
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push to your fork
+5. Open a Pull Request
+
+Please ensure:
+- Clean and readable code
+- Proper naming conventions
+- No compile errors
+- Consistent Material 3 UI design
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+Made with ❤️ using Kotlin & Jetpack Compose
+</p>
