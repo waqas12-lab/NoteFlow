@@ -1,6 +1,5 @@
-# NoteFlow - Android Notes App
-
-Professional clean notes app built with Kotlin, Jetpack Compose, Room, Navigation Compose, MVVM, Repository pattern, StateFlow, Coroutines, and Material 3.
+# NoteFlow
+Modern offline-first Android Notes App built with Kotlin, Jetpack Compose, Room, MVVM, StateFlow, and Material 3.
 
 ## Features
 - Add, edit, delete notes
